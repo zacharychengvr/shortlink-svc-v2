@@ -1,0 +1,15 @@
+{
+  "name": "shortlink-svc-v2",
+  "version": "0.4.0",
+  "private": true,
+  "description": "Small bookmark service with search and tags",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  }
+}
